@@ -10,7 +10,7 @@ CONSOLE_WIDTH = 80
 
 def instrucciones():
     ''' Imprime las instrucciones del juego
-    
+
     '''
     cls()
     print '=' * CONSOLE_WIDTH
@@ -22,28 +22,28 @@ def instrucciones():
     print ' 3.- Cada casilla puede tomar valores del 1-9'
     print ' 4.- Siguiendo las siguientes reglas:'
     print ''
-    print '\ta) El numero debe ser unico en su fila'
-    print '\tb) El numero debe ser unico en su columna'
-    print '\tc) El numero debe ser unico en su cuadrante'
+    print '\ta) El numero debe ser único en su fila'
+    print '\tb) El numero debe ser único en su columna'
+    print '\tc) El numero debe ser único en su cuadrante'
     print ''
-    print ' 5.- Las coordenadas estan dadas por valores del 0-8'
+    print ' 5.- Las coordenadas están dadas por valores del 0-8'
     print ' 6.- Puedes salir en cualquier momento ingresando s'
     print ' 7.- Puedes reiniciar la partida ingresando r'
     print ' 8.- Puedes ver estas instrucciones ingresando h'
     print ' 9.- Para borrar una celda ingresa 0 como valor'
-    print '10.- Significado color numeros en tablero:'
+    print '10.- Significado color números en tablero:'
     print ''
-    print '\ta) Rojo: Numeros entregados por el tablero, no editables.'
-    print '\tb) Verde: Numeros ingresados por el usuario.'
+    print '\ta) Rojo: Números entregados por el tablero, no editables.'
+    print '\tb) Verde: Números ingresados por el usuario.'
     raw_input('\nPresiona enter para comenzar...')
-    
 
-    
 
-    
+
+
+
 def logo_sudoku():
     ''' Muestra el logo del juegos
-    
+
     '''
     cls()
     fijar_color(2)
@@ -78,8 +78,8 @@ def logo_sudoku():
     pausa()
 
 def creditos():
-    ''' Imprime los creditos del programa
-    
+    ''' Imprime los créditos del programa
+
     '''
     cls()
     fijar_color(2)
@@ -94,11 +94,11 @@ def creditos():
     print ''
     time.sleep(1)
     print ''
-    print '- Bibliografia -'.center(CONSOLE_WIDTH)
+    print '- Bibliografía -'.center(CONSOLE_WIDTH)
     print ''
     time.sleep(1)
     print ''
-    print 'Introduccion a la Programacion en Python'.center(CONSOLE_WIDTH)
+    print 'Introducción a la Programacion en Python'.center(CONSOLE_WIDTH)
     print 'Andres Marsal, Isabel Gracia'.center(CONSOLE_WIDTH)
     print ''
     time.sleep(1)
@@ -123,7 +123,7 @@ def creditos():
     print ''
     time.sleep(1)
     print ''
-    print '"Mira que te mando que te esfuerzes y seas valiente,'.center(CONSOLE_WIDTH)
+    print '"Mira que te mando que te esfuerces y seas valiente,'.center(CONSOLE_WIDTH)
     print 'No temas ni desmayes, por que Jehova tu Dios'.center(CONSOLE_WIDTH)
     print 'esta contigo a donde quiera que vayas."'.center(CONSOLE_WIDTH)
     print 'Josue 1:9'.center(CONSOLE_WIDTH)

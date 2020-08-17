@@ -87,7 +87,7 @@ def fijar_valor(A,val,f,c):
 
 def mostrar_tablero(A,coords):
     ''' Mostrar tablero de sudoku con separacion de cuadrantes
-        y numeracion de filas y columas
+        y numeración de filas y columnas
 
     Argumentos:
     A -> (lista) Matriz con el tablero de sudoku
@@ -165,7 +165,7 @@ def permitir_edicion(coords,f,c):
     return False if (f,c) in coords else True
 
 def estado_tablero(A):
-    ''' Verifica que el trablero este completo
+    ''' Verifica que el tablero este completo
 
     Retorno
     Regresa True si el tablero esta lleno

@@ -8,24 +8,24 @@ except ImportError:
 
 def guardar_partida(A,coords):
     ''' Guarda la partida con el modulo pickle
-    
+
     Argumentos:
     A -> (lista) Tablero sudoku a guardar
     coords -> (tupla) pares de coordenadas con valores no editables
-    
+
     '''
     datos = [A,coords]
     fp = open('partida.dat','w')
     pickle.dump(datos,fp)
     fp.close()
-    
+
 def cargar_partida():
     ''' Cargar una partida guardada
-    
+
     Retorno:
-    A -> (lista) Tabler de sudoku guardado
+    A -> (lista) Tablero de sudoku guardado
     coords -> (tupla) pares de coordenadas no editables
-    
+
     '''
     fp = open('partida.dat','r')
     datos = pickle.load(fp)
