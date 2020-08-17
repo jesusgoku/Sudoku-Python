@@ -14,11 +14,16 @@ try:
 except ImportError:
     pickle
 
-from sudokulib.sudoku import *
+from sudokulib.gen_sudoku import *
 from sudokulib.utilidades import *
 from sudokulib.printscreen import *
 from sudokulib.persistencia import *
 from sudokulib.colores import *
+from sudokulib.tableros import *
+
+CONSOLE_WIDTH = 80
+FILAS = 9
+COLUMNAS = 9
 
 # PROGRAMA PRINCIPAL
 if __name__=='__main__':

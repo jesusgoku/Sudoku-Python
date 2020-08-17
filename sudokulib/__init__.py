@@ -10,8 +10,9 @@ try:
 except ImportError:
     pickle
 
-from .sudoku import *
+from .gen_sudoku import *
 from .utilidades import *
 from .printscreen import *
 from .colores import *
-from . import gen_sudoku
+from .persistencia import *
+from .tableros import *
